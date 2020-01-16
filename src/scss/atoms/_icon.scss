@@ -12,7 +12,25 @@
 }
 
 .icon-twitter{
-    background-image: url($icons+"/instagram.svg");
+    background-image: url($icons+"/twitter.svg");
+    width: 30px;
+    height: 30px;   
+}
+
+.icon-facebook{
+    background-image: url($icons+"/facebook.svg");
+    width: 30px;
+    height: 30px;   
+}
+
+.icon-linkedin{
+    background-image: url($icons+"/linkedin.svg");
+    width: 30px;
+    height: 30px;   
+}
+
+.icon-mail{
+    background-image: url($icons+"/mail.svg");
     width: 30px;
     height: 30px;   
 }
