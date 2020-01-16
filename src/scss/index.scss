@@ -1,11 +1,19 @@
 /* Config */
-@import "./config/fonts";
+
+@import "config/colors";
+@import "config/fonts";
+@import "config/general";
+@import "config/paths";
 
 /* Vendors */
 @import "~bootstrap/scss/bootstrap";
 
 /* Atoms */
-@import "./atoms/btn"
+
+@import "atoms/btn";
+@import "atoms/typography";
+@import "atoms/icon";
+
 /* Molecules */
 
 /* Organisms */
