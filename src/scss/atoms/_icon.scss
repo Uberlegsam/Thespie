@@ -1,0 +1,60 @@
+[class^="icon"] {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-instagram{
+    background-image: url($icons+"/instagram.svg");
+    width: 30px;
+    height: 30px;   
+}
+
+.icon-twitter{
+    background-image: url($icons+"/instagram.svg");
+    width: 30px;
+    height: 30px;   
+}
+
+.icon-cross{
+    background-image: url($icons+"/cross.svg");
+    width: 18px;
+    height: 18px;
+}
+
+.icon-google{
+    background-image: url($icons+"/google.svg");
+    width: 48px;
+    height: 49px;
+}
+
+.icon-pinterest {
+    background-image: url($icons+"/pinterest.svg");
+    width: 48px;
+    height: 48px;
+}
+
+.icon-share{
+    background-image: url($icons+"/share.svg");
+    width: 23px;
+    height: 32px;
+}
+
+.icon-tick{
+    background-image: url($icons+"/tick.svg");
+    width: 16px;
+    height: 18px;
+}
+
+.icon-money{
+    background-image: url($icons+"/money.svg");
+    width: 19px;
+    height: 19px;
+}
+
+.icon-heart{
+    background-image: url($icons+"/heart.svg");
+    width: 19px;
+    height: 17px;
+}
