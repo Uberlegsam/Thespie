@@ -1,0 +1,32 @@
+// Set the gutter of columns classes and specify the width of the gutters for LG devices.
+@media (max-width: map-get($grid-breakpoints, lg)) {
+  .row {
+    margin-right: -$grid-gutter-width / 6;
+    margin-left: -$grid-gutter-width / 6;
+  }
+  .container,
+  .container-fluid {
+    padding-right: $grid-gutter-width / 6;
+    padding-left: $grid-gutter-width / 6;
+  }
+  .row > .col,
+  .row > [class*='col-'] {
+    padding-right: $grid-gutter-width / 6;
+    padding-left: $grid-gutter-width / 6;
+  }
+}
+
+// Set the max-width of container for XS devices.
+@media (max-width: map-get($grid-breakpoints, lg)) {
+  .container,
+  .container-fluid {
+    max-width: $xs-container-max-width;
+  }
+}
+
+// @media (min-width: map-get($grid-breakpoints, lg)) {
+//   .container,
+//   .container-fluid {
+//     max-width: 100%;
+//   }
+// }

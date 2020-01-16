@@ -1,0 +1,31 @@
+/* Icons Config Styles */
+[class^='icon'] {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.icon-profile {
+  background-image: url($icons+'/account.svg');
+  width: 29px;
+  height: 29px;
+}
+
+.icon-instagram {
+  background-image: url($icons+'/instagram.svg');
+  width: 33px;
+  height: 33px;
+}
+
+.icon-facebook {
+  background-image: url($icons+'/facebook.svg');
+  width: 33px;
+  height: 33px;
+}
+
+.icon-linkedin {
+  background-image: url($icons+'/linkedin.svg');
+  width: 33px;
+  height: 33px;
+}
