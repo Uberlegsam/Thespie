@@ -23,7 +23,7 @@ function generateHtmlPlugins(templateDir) {
 const htmlPlugins = generateHtmlPlugins("./src/html/views");
 
 const config = {
-  entry: ["./src/js/index.js", "./src/scss/style.scss"],
+  entry: ["./src/js/index.js", "./src/scss/index.scss"],
   output: {
     filename: "./js/bundle.js"
   },

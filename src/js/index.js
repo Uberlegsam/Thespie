@@ -1,7 +1,7 @@
-import jQuery from "jquery";
-import popper from "popper.js";
-import bootstrap from "bootstrap";
+// import SharedLogic from './shared/shared-logic';
 
-jQuery(function() {
-  jQuery("body").css("color", "blue");
-});
+document.addEventListener('DOMContentLoaded', () => {
+    window.refs = {
+    //   sharedLogic: new SharedLogic(),
+    };
+})
